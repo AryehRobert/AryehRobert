@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Local Storage</title>
+			
+				<script>
+					
+				function save() {
+				
+					var Name = document.getElementById('firstname').value;
+					  localStorage.setItem('text' , Name);
+					  
+					  //localStorage.clear();
+					  
+					  
+					  
+					  
+				}
+				
+				function retrieve() {
+				
+                    var retrieveData = localStorage.getItem('text');		
+                        if(retrieveData) {
+						
+						    document.getElementById('firstname').value= retrieveData;
+						
+						
+						}
+
+					}
+					
+					
+					function removed() {
+					        document.getElementById('firstname').value='';
+							localStorage.removeItem('text');
+					
+					
+					
+					
+					}
+				</script>	
+		</head>
+		<body onload="retrieve()">
+		<h1>Enter your firstname</h1>
+		
+		<form>
+			<input type="text" id="firstname"/>
+			<input type="button" value="save" onclick="save()"/>
+			<input type="button" value="removed" onclick="removed()"/>
+		</form>
+		</body>
+	</html>
