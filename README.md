@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @AryehRobert
-- 👀 I’m interested in Full-Stack Developing
+- 👀 I’m interested in Full-Stack Developing & a practising Whitehat
 - WHite Advocate
 - 🌱 I’m currently learning HTML,CSS,JAVASCRIPT & PYTHON
 - 💞️ I’m looking to collaborate on with all great leaders in IT world and people who are willing to guide me through my journey
